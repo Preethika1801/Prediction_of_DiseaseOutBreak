@@ -1,0 +1,79 @@
+# 🏥 Disease Prediction System  
+
+## 📌 Overview  
+This is a **Machine Learning-based Disease Prediction System** built using **Streamlit**. It predicts:  
+- **Diabetes**  
+- **Heart Disease**  
+- **Parkinson's Disease**  
+
+The system takes user inputs and uses **pre-trained ML models** to predict the likelihood of these diseases.
+
+---
+
+## 🛠 Technologies Used  
+- **Python**  
+- **Streamlit** (for the Web App)  
+- **Scikit-Learn** (for ML models)  
+- **Pandas & NumPy** (for data processing)  
+- **Pickle** (for saving and loading trained models)
+
+---
+
+## 🔧 Installation Guide  
+Copy and paste the following commands into your terminal:
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/Preethika1801/Prediction_of_DiseaseOutBreak.git  
+cd Prediction_of_DiseaseOutBreak
+```
+
+### 2️⃣ Install Required Libraries  
+```sh
+pip install -r Req_libraries.txt
+```
+
+### 3️⃣ Run the Application  
+```sh
+streamlit run web.py
+```
+
+---
+
+## 📂 Project Structure  
+```
+📁 Disease-Prediction-System/
+│-- 📂 Datasets/  
+│   ├── diabetes.csv          # Dataset for Diabetes  
+│   ├── heart.csv             # Dataset for Heart Disease  
+│   ├── parkinsons.csv        # Dataset for Parkinson’s
+│-- 📂 Training_models/ 
+│   ├── diabetes_model.ipynb 
+│   ├── diabetes_model.sav    # Trained ML model for Diabetes  
+|   ├── heart_model.ipynb
+│   ├── heart_model.sav       # Trained ML model for Heart Disease
+│   ├── parkinson.ipynb 
+│   ├── parkinson.sav         # Trained ML model for Parkinson’s  
+│-- 📄 web.py                 # Streamlit app script  
+│-- 📄 Req_libraries.txt      # Required dependencies  
+│-- 📄 README.md              # Project documentation    
+```
+
+---
+
+## 🚀 Features  
+✅ **User-friendly Interface** with Streamlit  
+✅ **Real-time Predictions** using ML models  
+✅ **Error Handling** for invalid inputs  
+✅ **Pre-trained ML Models** for faster predictions  
+
+
+---
+
+## 📬 Contact  
+For queries, reach out at **j.preethikapreethi@gmail.com**.  
+
+---
+
+⭐ **If you find this project helpful, give it a star on GitHub!** ⭐
+
